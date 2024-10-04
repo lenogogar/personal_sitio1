@@ -1,0 +1,491 @@
+    *{
+            margin: 10;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+            text-indent: -9999px;
+            color: white;
+        }
+        /*
+        .contA{
+            scale: 0.55;
+        }
+        */
+        .caja{
+            background-color: black;
+        }
+/* ACERCA DEL CONTENEDOR T */
+        .contenedorT{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 100vh;
+        }
+        .contenedorT div{
+            background-color:black ;
+        }
+/* ACERCA DEL CONTENEDOR T2 */
+        .contenedorT2{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            height: 100vh;
+        }
+        .contenedorT2 div{
+            background-color: black;
+        }
+/*ACERCA DEL PRIMER CONTENDOR T1*/
+        .contenedorT1{
+            padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: repeat(5 1fr);
+            gap: 15px;
+        }
+        .contenedorT .contenedorT1 div{
+            background-color: #F24150;
+        }
+        .contenedorT .contenedorT1 .item-1{
+            background-color: #F2C1D1;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .contenedorT .contenedorT1 .item-2{
+            background-color: #bd666d;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .contenedorT .contenedorT1 .item-3{
+            background-color: #F24150;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .contenedorT .contenedorT1 .item-4{
+            background-color: #F2C1D1;
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 3;
+        }
+        .contenedorT .contenedorT1 .item-5{
+            background-color: #b63a63;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 8;
+            
+        }
+        .contenedorT .contenedorT1 .item-6{
+            background-color: #F24150;
+            grid-column-start: 6;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 8;
+            
+        }
+        .contenedorT .contenedorT1 .item-7{
+            background-color: #F24150;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 8;
+            grid-row-end: 9;
+        }
+        .contenedorT .contenedorT1 .item-8{
+            background-color: #F2C1D1;
+            grid-column-start: 5;
+            grid-row-start: 8;
+            grid-row-end: 9;
+        }
+        .contenedorT .contenedorT1 .item-9{
+            background-color: #F2C1D1;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 9;
+        }
+        .contenedorT .contenedorT1 .item-10{
+            background-color: #F24150;
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 9;
+        }
+/*ACERCA DEL SEGUNDO CONTENDORT T2*/
+        .contenedortT2{
+            padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: repeat(5 1fr);
+            gap: 15px;
+        }
+        /*
+        .contenedorT :nth-last-child(1){
+            background-color: red;
+        }
+        */
+        .contenedorT .contenedortT2 div{
+            background-color: #f07109;
+        }
+        .contenedorT .contenedortT2 .item-1{
+            background-color: #F0A909;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .contenedorT .contenedortT2 .item-2{
+            background-color: #A62103;
+            grid-column-start: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .contenedorT .contenedortT2 .item-3{
+            background-color: #F0A909;
+            grid-column-start: 3;
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+        .contenedorT .contenedortT2 .item-4{
+            background-color: #A62103;
+            grid-column-start: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .contenedorT .contenedortT2 .item-5{
+            background-color: #F0A909;
+            grid-column-start: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .contenedorT .contenedortT2 .item-6{
+            background-color: #A62103;
+            grid-column-start: 1;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .contenedorT .contenedortT2 .item-7{
+            background-color: #cc792b;
+            grid-column-start: 2;
+            grid-row-start: 3;
+            grid-row-end: 7;
+        }
+        .contenedorT .contenedortT2 .item-8{
+            background-color: #A62103;
+            grid-column-start: 3;
+            grid-row-start: 5;
+            grid-row-end: 9;
+        }
+        .contenedorT .contenedortT2 .item-9{
+            background-color: #F0A909;
+            grid-column-start: 4;
+            grid-row-start: 4;
+            grid-row-end: 7;
+        }
+        .contenedorT .contenedortT2 .item-10{
+            background-color: #A62103;
+            grid-column-start: 5;
+            grid-row-start: 3;
+            grid-row-end: 10;
+        }
+        .contenedorT .contenedortT2 .item-11{
+            background-color: #F0A909;
+            grid-column-start: 1;
+            grid-row-start: 6;
+            grid-row-end: 11;
+        }
+        .contenedorT .contenedortT2 .item-12{
+            background-color: #A62103;
+            grid-column-start: 2;
+            grid-row-start: 7;
+            grid-row-end: 12;
+        }
+        .contenedorT .contenedortT2 .item-13{
+            background-color: #F0A909;
+            grid-column-start: 3;
+            grid-row-start: 9;
+            grid-row-end: 11;
+        }
+        .contenedorT .contenedortT2 .item-14{
+            background-color: #A62103;
+            grid-column-start: 4;
+            grid-row-start: 7;
+            grid-row-end: 12;
+        }
+        .contenedorT .contenedortT2 .item-15{
+            background-color: #F0A909;
+            grid-column-start: 5;
+            grid-row-start: 10;
+            grid-row-end: 13;
+        }
+        .contenedorT .contenedortT2 .item-16{
+            background-color: #A62103;
+            grid-column-start: 1;
+            grid-row-start: 11;
+            grid-row-end: 14;
+        }
+        .contenedorT .contenedortT2 .item-17{
+            background-color: #ce9641;
+            grid-column-start: 2;
+            grid-row-start: 12;
+            grid-row-end: 14;
+        }
+        .contenedorT .contenedortT2 .item-18{
+            background-color: #A62103;
+            grid-column-start: 3;
+            grid-row-start: 11;
+            grid-row-end: 14;
+        }
+        .contenedorT .contenedortT2 .item-19{
+            background-color: #F0A909;
+            grid-column-start: 4;
+            grid-row-start: 12;
+            grid-row-end: 14;
+        }
+        .contenedorT .contenedortT2 .item-20{
+            background-color: #A62103;
+        }
+/*ACERCA DEL CONTENDOR2 T1*/
+        .contenedorT21{
+            padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: repeat(5 1fr);
+            gap: 15px;
+        }
+        .contenedorT2 .contenedorT21 div{
+            background-color: black;
+        }
+        .contenedorT2 .contenedorT21 .item-1{
+            background-color: #e89323;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .contenedorT2 .contenedorT21 .item-6{
+            background-color: #e88223;
+            
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        .contenedorT2 .contenedorT21 .item-8{
+            background-color: #e4b051;
+            grid-column-start: 3;
+            grid-row-start: 2;
+        }
+        .contenedorT2 .contenedorT21 .item-3{
+            background-color: #e8ca23;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+        }
+        .contenedorT2 .contenedorT21 .item-10{
+            background-color: #b4e823;
+        }
+        .contenedorT2 .contenedorT21 .item-12{
+            background-color: #CE23E8;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 3;
+        }
+        .contenedorT2 .contenedorT21 .item-15{
+            background-color: #CE23E8;   
+        }
+        .contenedorT2 .contenedorT21 .item-18{
+            background-color: #CE23E8;
+        }
+        .contenedorT2 .contenedorT21 .item-19{
+            background-color: #CE23E8;
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end:8 ;
+        }
+        .contenedorT2 .contenedorT21 .item-29{
+            background-color: #CE23E8;    
+        }
+        .contenedorT2 .contenedorT21 .item-30{
+            background-color: #CE23E8;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 9;
+            grid-row-end:11 ;
+        }
+        .contenedorT2 .contenedorT21 .item-38{
+            background-color: #CE23E8;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 11;
+            grid-row-end:13 ;
+        }
+        .contenedorT2 .contenedorT21 .item-39{
+            background-color: #CE23E8;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 13;
+        }
+/*ACERCA DEL CONTENDOR2 T2*/
+        .contenedorT22{
+            padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: repeat(5 1fr);
+            gap: 15px;
+        }
+        .contenedorT2 .contenedorT22 div{
+            background-color: #012030;
+        }
+        .contenedorT2 .contenedorT22 .item-1{
+            background-color: #9AEBA3;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .contenedorT2 .contenedorT22 .item-2{
+            background-color: #012030;  
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+        .contenedorT2 .contenedorT22 .item-3{
+            background-color: #9AEBA3;  
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+        .contenedorT2 .contenedorT22 .item-4{
+            background-color: #012030;  
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+        .contenedorT2 .contenedorT22 .item-5{
+            background-color: #9AEBA3;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 6;
+            grid-row-end: 9;
+        }
+        .contenedorT2 .contenedorT22 .item-6{
+            background-color: #012030;  
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 7;
+        }
+        .contenedorT2 .contenedorT22 .item-7{
+            background-color: #9AEBA3;  
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 9;
+            grid-row-end: 12;
+        }
+        .contenedorT2 .contenedorT22 .item-8{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 10;
+            grid-row-end: 11;
+        }
+        .contenedorT2 .contenedorT22 .item-9{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 6;
+        }
+        .contenedorT2 .contenedorT22 .item-10{
+            background-color: #9AEBA3;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 7;
+        }
+        .contenedorT2 .contenedorT22 .item-11{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 8;
+        }
+        .contenedorT2 .contenedorT22 .item-12{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+        }
+        .contenedorT2 .contenedorT22 .item-13{
+            background-color: #9AEBA3;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 2;
+        }
+        .contenedorT2 .contenedorT22 .item-14{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 3;
+        }
+        .contenedorT2 .contenedorT22 .item-15{
+            background-color: #012030;  
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+        }
+        .contenedorT2 .contenedorT22 .item-16{
+            background-color: #9AEBA3;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 9;
+        }
+        .contenedorT2 .contenedorT22 .item-17{
+            background-color: #012030;  
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 10;
+        }
+        .contenedorT2 .contenedorT22 .item-18{
+            background-color: #9AEBA3;  
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 11;
+        }
+/*ACERCA DEL CONTENDOR2 T3*/
+        .contenedorT23{
+            padding: 10px;
+            display: grid;
+            grid-template-columns:repeat(5, 1fr);
+            grid-template-rows: repeat(5 1fr);
+            gap: 15px;
+        }
+        .contenedorT2 .contenedorT23 div{
+            background-color: #8b8b8b;
+        }
+        .contenedorT2 .contenedorT23 .item-2{
+            background-color: #F5F5F5;
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .contenedorT2 .contenedorT23 .item-3{
+            background-color: #F5F5F5;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 7;
+        }  
+        .contenedorT2 .contenedorT23 .item-4{
+            background-color: #F5F5F5;
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 4;
+            grid-row-end: 7;
+        }  
+        .contenedorT2 .contenedorT23 .item-5{
+            background-color: #F5F5F5;
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 8;
+            grid-row-end: 10;
+        }

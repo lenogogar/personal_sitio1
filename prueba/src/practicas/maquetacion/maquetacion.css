@@ -1,0 +1,89 @@
+/* General card style for all cards */
+.card1, .card2, .card3, .card4, .card5 {
+    background: linear-gradient(135deg, #FF7E00, #FFB347); /* Degradado anaranjado */
+    border: 2px solid #FF7E00; /* Borde anaranjado más oscuro */
+    border-radius: 25px; /* Bordes muy redondeados */
+    padding: 30px;
+    color: #FFF; /* Texto blanco para contraste */
+    text-align: center; /* Centrar el contenido */
+    transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover {
+    transform: translateY(-10px); /* Levanta la tarjeta al hacer hover */
+}
+
+
+.card1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.card1 p {
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+}
+
+/* .card2 - adjust image and button */
+.card2 img {
+    width: 100%;
+    border-radius: 15px; /* Imagen con bordes suaves */
+    margin-bottom: 15px;
+}
+
+.card2 button {
+    background-color: transparent;
+    border: 2px solid #e1e6b9;
+    color: #dddf96;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card2 button:hover {
+    background-color: #FFF;
+    color: #FF7E00;
+}
+
+/* .card3 - image and text adjustments */
+.card3 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Imagen circular */
+    margin-bottom: 10px;
+}
+
+.card3 .text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* .card4 - header and content text */
+.card4 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* .card5 - profile header and buttons */
+.card5 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card5 button {
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card5 button:hover {
+    background-color: #FFF;
+    color: #dab39c;
+}
